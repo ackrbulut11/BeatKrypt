@@ -1,0 +1,24 @@
+# === BeatKrypt Projesi .gitignore İhtiyaçları ===
+
+data
+models
+
+# 2. Python ve Jupyter Notebook Geçici Dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+
+# 3. Google Colab ve Sanal Ortam Çıktıları
+.virtualenv/
+venv/
+ENV/
+env/
+.env
+
+# 4. İşletim Sistemi ve IDE Dosyaları
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
