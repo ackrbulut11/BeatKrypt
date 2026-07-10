@@ -1,0 +1,14 @@
+
+torch>=2.0.0
+torchvision
+numpy
+pandas
+scipy
+scikit-learn
+
+wfdb
+neurokit2
+tqdm
+
+matplotlib
+seaborn
