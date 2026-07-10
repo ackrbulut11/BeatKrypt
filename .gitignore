@@ -1,37 +1,24 @@
-# --- BeatKrypt Özel Veri ve Model Koruması ---
-# PhysioNet veri setini ve tüm ham/temizlenmiş CSV'leri Git'e yükleme
-data/
-*.csv
-*.dat
-*.hea
+# === BeatKrypt Projesi .gitignore İhtiyaçları ===
 
-# Eğitilen ağır yapay zeka modellerini ve checkpoint'leri engelle
-models/*.pt
-models/*.pth
-models/*.onnx
-models/*.pkl
+data
+models
 
-# --- Python ve Sistem Kalıntıları ---
-# Byte-compiled / optimize dosyalar
+# 2. Python ve Jupyter Notebook Geçici Dosyaları
 __pycache__/
 *.py[cod]
 *$py.class
+.ipynb_checkpoints/
+.pytest_cache/
 
-# Sanal ortam (Virtual Environment) klasörleri
+# 3. Google Colab ve Sanal Ortam Çıktıları
+.virtualenv/
 venv/
-.venv/
-env/
 ENV/
+env/
+.env
 
-# IDE ve Editör ayarları (VS Code, PyCharm vb.)
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.swp
-
-# İşletim sistemi kalıntıları
+# 4. İşletim Sistemi ve IDE Dosyaları
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
